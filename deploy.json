@@ -14,7 +14,7 @@
       "user" : "ec2-user",
       "host" : ["54.223.189.156"],
       "ref"  : "origin/master",
-      "repo" : "git@gwx_access_token:topdmc/wecat.git",
+      "repo" : "git@wx_access_token:topdmc/wecat.git",
       "path" : "/srv/dmc/wechat-access-token",
       "pre-deploy-local" : "echo 'This is a local executed command'",
       "post-deploy": "npm install; pm2 startOrRestart deploy.json --env production --node-args='--harmony'; pm2 save",
